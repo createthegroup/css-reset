@@ -1,5 +1,5 @@
 /*
- * reset.css v0.1 - https://github.com/createthegroup/css-reset/
+ * reset.css v0.2
  * Mash up of [Eric Meyers' reset](http://meyerweb.com/eric/tools/css/reset/)
  * and some useful cross browser reset rules from [normalize.css](http://necolas.github.com/normalize.css/)
  */
@@ -212,6 +212,7 @@ legend {
  * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
  *    and Chrome.
  * 3. Improves appearance and consistency in all browsers.
+ * 4. Removes outer 'glow' from Chrome.
  */
 
 button,
@@ -222,6 +223,7 @@ textarea {
     margin: 0; /* 2 */
     vertical-align: baseline; /* 3 */
     *vertical-align: middle; /* 3 */
+    outline: none; /* 4 */
 }
 
 /*
