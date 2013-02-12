@@ -240,7 +240,8 @@ input {
  * 1. Removes inner shadow from iOS inputs.
  * 2. Removes rounded corners from iOS inputs.
  */
- 
+
+textarea,
 input[type=text],
 input[type=password],
 input[type=search],
